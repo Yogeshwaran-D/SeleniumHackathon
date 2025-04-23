@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "groupingsuite">
+
+	<test name = "groupingtest">
+		
+		<groups>
+			<run>
+				<!-- <include name="sanity"/> -->
+				<!-- <exclude name="regression"/> -->
+				<include name="functional"/>
+			</run>
+		</groups>
+		
+		<classes>
+			<class name="grouping.LoginClass"/>
+			<class name="grouping.SignupClass"/>
+			<class name="grouping.PaymentClass"/>
+		</classes>
+		
+	</test>
+
+</suite>
